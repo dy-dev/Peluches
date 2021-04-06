@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PelucheProject", "PelucheProject\PelucheProject.vcxproj", "{C06A0024-73CA-4774-9BF8-AF76ED26FC50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C06A0024-73CA-4774-9BF8-AF76ED26FC50}.Debug|x64.ActiveCfg = Debug|x64
+		{C06A0024-73CA-4774-9BF8-AF76ED26FC50}.Debug|x64.Build.0 = Debug|x64
+		{C06A0024-73CA-4774-9BF8-AF76ED26FC50}.Release|x64.ActiveCfg = Release|x64
+		{C06A0024-73CA-4774-9BF8-AF76ED26FC50}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {95F2CDF1-871D-40CF-9AF7-EABEDB8FA896}
+	EndGlobalSection
+EndGlobal
