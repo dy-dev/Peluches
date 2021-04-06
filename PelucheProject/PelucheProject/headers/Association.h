@@ -11,16 +11,25 @@
 #include <vector>   
 
 class Association {
-public: 
     int m_iArgent;
-    std::vector<Animal> m_AnimalArray;
-    std::vector<Gadget> m_GadetsArray;
+    std::vector<Animal*> m_AnimalArray;
+    std::vector<Gadget*> m_GadetsArray;
 
-    
-/**
- * @param p_Gadget
- */
-void Vendre(Gadget p_Gadget);
+public:
+
+    Association();
+    /**
+     * @param p_Gadget
+     */
+    void Vendre(Gadget p_Gadget);
+
+    void AjoutAnimal();
+    void AjoutGadget();
+    void AjoutPeluche();
+
+    void AfficherAnimaux();
+    void AfficherGadgets();
+
 };
 
 #endif //_ASSOCIATION_H

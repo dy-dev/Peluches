@@ -10,9 +10,9 @@
 
 
 class AnimauxEnDanger: public Animal {
-public: 
     int m_iNbRepresentantRestant;
-    
+public: 
+    AnimauxEnDanger();
 void AfficherInfos();
 };
 

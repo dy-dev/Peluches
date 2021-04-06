@@ -135,7 +135,7 @@
 											"top": 246,
 											"width": 151.37890625,
 											"height": 13,
-											"text": "+m_sEspece: std::string",
+											"text": "#m_sEspece: std::string",
 											"horizontalAlignment": 0
 										},
 										{
@@ -152,7 +152,7 @@
 											"top": 261,
 											"width": 151.37890625,
 											"height": 13,
-											"text": "+m_sNom: std::string",
+											"text": "#m_sNom: std::string",
 											"horizontalAlignment": 0
 										},
 										{
@@ -169,7 +169,7 @@
 											"top": 276,
 											"width": 151.37890625,
 											"height": 13,
-											"text": "+m_sContinent: std::string",
+											"text": "#m_sContinent: std::string",
 											"horizontalAlignment": 0
 										}
 									],
@@ -575,7 +575,7 @@
 											"top": 166,
 											"width": 123.17626953125,
 											"height": 13,
-											"text": "+m_iPrix: int",
+											"text": "#m_iPrix: int",
 											"horizontalAlignment": 0
 										},
 										{
@@ -592,7 +592,7 @@
 											"top": 181,
 											"width": 123.17626953125,
 											"height": 13,
-											"text": "+m_sNom: std::string",
+											"text": "#m_sNom: std::string",
 											"horizontalAlignment": 0
 										},
 										{
@@ -609,7 +609,7 @@
 											"top": 196,
 											"width": 123.17626953125,
 											"height": 13,
-											"text": "+m_Animal: Animal",
+											"text": "#m_Animal: Animal",
 											"horizontalAlignment": 0
 										}
 									],
@@ -821,7 +821,7 @@
 											"top": 550,
 											"width": 143.42529296875,
 											"height": 13,
-											"text": "+m_iTempsGestation: int",
+											"text": "#m_iTempsGestation: int",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1035,7 +1035,7 @@
 											"top": 550,
 											"width": 121.7607421875,
 											"height": 13,
-											"text": "+m_iNbOeufs: int",
+											"text": "#m_iNbOeufs: int",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1444,7 +1444,7 @@
 											"top": 398,
 											"width": 188.96337890625,
 											"height": 13,
-											"text": "+m_iNbRepresentantRestant: int",
+											"text": "-m_iNbRepresentantRestant: int",
 											"horizontalAlignment": 0
 										}
 									],
@@ -3667,6 +3667,7 @@
 								"$ref": "AAAAAAF4pi4Fi9r8mRk="
 							},
 							"name": "m_sEspece",
+							"visibility": "protected",
 							"type": "std::string"
 						},
 						{
@@ -3676,6 +3677,7 @@
 								"$ref": "AAAAAAF4pi4Fi9r8mRk="
 							},
 							"name": "m_sNom",
+							"visibility": "protected",
 							"type": "std::string"
 						},
 						{
@@ -3685,6 +3687,7 @@
 								"$ref": "AAAAAAF4pi4Fi9r8mRk="
 							},
 							"name": "m_sContinent",
+							"visibility": "protected",
 							"type": "std::string"
 						}
 					],
@@ -3779,6 +3782,7 @@
 								"$ref": "AAAAAAF4pi5JhNtQFCw="
 							},
 							"name": "m_iPrix",
+							"visibility": "protected",
 							"type": "int"
 						},
 						{
@@ -3788,6 +3792,7 @@
 								"$ref": "AAAAAAF4pi5JhNtQFCw="
 							},
 							"name": "m_sNom",
+							"visibility": "protected",
 							"type": "std::string"
 						},
 						{
@@ -3797,6 +3802,7 @@
 								"$ref": "AAAAAAF4pi5JhNtQFCw="
 							},
 							"name": "m_Animal",
+							"visibility": "protected",
 							"type": {
 								"$ref": "AAAAAAF4pi4Fi9r8mRk="
 							}
@@ -3843,6 +3849,7 @@
 								"$ref": "AAAAAAF4pi5q0dt6LD0="
 							},
 							"name": "m_iTempsGestation",
+							"visibility": "protected",
 							"type": "int"
 						}
 					],
@@ -3887,6 +3894,7 @@
 								"$ref": "AAAAAAF4pi6CHNuk76k="
 							},
 							"name": "m_iNbOeufs",
+							"visibility": "protected",
 							"type": "int"
 						}
 					],
@@ -3977,6 +3985,7 @@
 								"$ref": "AAAAAAF4pi6nutv4OtI="
 							},
 							"name": "m_iNbRepresentantRestant",
+							"visibility": "private",
 							"type": "int"
 						}
 					],

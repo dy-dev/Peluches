@@ -11,12 +11,14 @@
 #include "Etiquette.h"
 
 
-class Peluche: public Gadget {
-public: 
-    Animal m_Animal;
-    Etiquette m_Etiquette;
-    
-void AfficherInfos();
+class Peluche : public Gadget {
+    Etiquette* m_Etiquette;
+public:
+
+    Peluche();
+    Peluche(int p_iPrix, Animal* p_Animal);
+
+    void AfficherInfos();
 };
 
 #endif //_PELUCHE_H
